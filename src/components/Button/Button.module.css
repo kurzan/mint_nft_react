@@ -1,0 +1,24 @@
+.button {
+  padding: 10px 24px 10px 24px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background-color: rgb(30 30 80);
+  opacity: 0.9;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 12px rgba(4, 48, 89, 0.4));
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 1;
+}
+
+.text {
+  font-size: 32px;
+  font-weight: 900;
+}

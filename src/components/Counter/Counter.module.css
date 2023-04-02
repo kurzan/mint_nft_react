@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3965D8;
+  border-radius: 24px;
+  padding: 10px 24px 10px 24px;
+}
+
+.count_box {
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.counts {
+  font-size: 28px;
+  color: #1E1E53;
+  font-weight: 900;
+  margin: 0 10px 0 10px;
+}
+
+.volume {
+  font-size: 28px;
+  color: #FFCB37;
+  font-weight: 900;
+  margin: 0 10px 0 6px;
+}
+
+.pointer {
+  cursor: pointer;
+}

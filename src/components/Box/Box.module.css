@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 24px;
+  border: solid;
+  border-radius: 32px;
+  border-color: white ;
+  border-width: 4px;
+  padding: 24px;
+  background-color: rgb(151 63 144);
+}
+
+.p {
+  font-size: 24px;
+  font-weight: 600;
+}
