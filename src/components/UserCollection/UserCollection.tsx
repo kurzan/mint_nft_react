@@ -8,7 +8,7 @@ const UserCollection = () => {
     <Box>
       <div className={styles.container}>
         <p className={styles.title}>Your collection</p>
-        <p>You don't have NFT. Please mint them</p>
+        <p>You dont have NFT. Please mint them</p>
         <div className={styles.list}>
           <ImagePreview src="/nft/5.jpg"/>
           <ImagePreview src="/nft/5.jpg"/>
