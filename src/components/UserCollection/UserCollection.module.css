@@ -15,3 +15,10 @@
   font-size: 32px;
   font-weight: 700;
 }
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 14px;
+}
