@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  padding: 28px;
+  justify-content: space-between;
+}
+
+.company {
+  font-size: 32px;
+  font-weight: 700;
+}
