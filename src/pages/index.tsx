@@ -6,6 +6,8 @@ import styles from '@/styles/Home.module.css'
 import Box from '@/components/Box/Box';
 import MintDetails from '@/components/MintDetails/MintDetails';
 import Header from '@/components/Header/Header';
+import UserCollection from '@/components/UserCollection/UserCollection';
+import Footer from '@/components/Footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +23,9 @@ export default function Home() {
       <Header/>
       <main className={styles.main}>
         <MintDetails />
+        <UserCollection />
       </main>
+      <Footer />
     </>
   )
 }

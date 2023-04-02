@@ -21,7 +21,7 @@ const ImagePreview = () => {
   }, [currentImage])
 
   return(
-    <Image className={styles.image} src={`/nft/${currentImage}.jpg`} alt="nft" width="160" height="160"  />
+    <Image className={styles.image} src={`/nft/${currentImage}.jpg`} alt="nft" width="320" height="320"  />
   )
 };
 

@@ -10,10 +10,14 @@ const MintDetails = () => {
     <Box>
       <div className={styles.container}>
         <p className={styles.title}>Mint your Smoke Cat NFT now</p>
-        <ImagePreview />
-        <Counter />
-        <p className={styles.p}>Total minted: 2 / 10</p>
-        <Button title={"Mint"} />
+        <div className={styles.preview}>
+          <ImagePreview />
+          <div className={styles.mint}>
+            <p className={styles.p}>Total minted: 2 / 10</p>
+            <Counter />
+            <Button title={"Mint"} />
+          </div>
+        </div>
       </div>
     </Box>
 

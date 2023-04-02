@@ -15,17 +15,3 @@
   font-size: 32px;
   font-weight: 700;
 }
-
-.preview {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 48px;
-}
-
-.mint {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 24px;
-}
