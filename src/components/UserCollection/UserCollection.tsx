@@ -63,7 +63,7 @@ const UserCollection = () => {
             {userNfts.map((nft) => (
               <div key={nft} className={styles.item}>
                 <ImagePreview src={`/nft/${nft}.jpg`}/>
-                <p>Smoke Cat #{nft}</p><a target={blank_} href={`https://testnets.opensea.io/collection/smoke-cat-${nft}`}>View on OpenSea</a>
+                <p>Smoke Cat #{nft}</p><a target={"blank_"} href={`https://testnets.opensea.io/assets/bsc-testnet/0x61c0a8c1ea7e715f3dbf0365b56e4ee57be51e22/${nft}`}>View on OpenSea</a>
               </div>
             ))}
           </div>
