@@ -22,3 +22,9 @@
   flex-wrap: wrap;
   gap: 14px;
 }
+
+.item {
+  display:flex;
+  flex-direction: column;
+  gap: 18px;
+}
