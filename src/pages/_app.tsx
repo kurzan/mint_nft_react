@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 
 import { RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { WagmiConfig } from "wagmi";
-import { wagmiClient, chains } from '../services/web3config';
+import { wagmiClient, chains } from '@/services/web3config';
 
 export default function App({ Component, pageProps }: AppProps) {
   return(

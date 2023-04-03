@@ -18,6 +18,10 @@
   opacity: 1;
 }
 
+.button:disabled {
+  opacity: 0.5;
+}
+
 .text {
   font-size: 32px;
   font-weight: 900;
