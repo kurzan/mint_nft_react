@@ -1,8 +1,10 @@
 .container {
+  display: inline-flex;
   border: solid;
   border-radius: 32px;
   border-color: white ;
   border-width: 4px;
   padding: 24px;
   background-color: rgb(151 63 144);
+  box-sizing: border-box;
 }
