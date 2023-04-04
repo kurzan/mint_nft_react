@@ -55,7 +55,7 @@ const UserCollection = () => {
       <div className={styles.container}>
         <p className={styles.title}>Your NFT`s</p>
         {!userNfts.length ? (
-          <p>You dont have NFT. Please mint them</p>
+          <p>You dont have NFT. Please mint them or connect wallet</p>
         )
           :
          (

@@ -49,7 +49,7 @@ const MintDetails = () => {
   const errorMess = useMemo(() => {
 
     let err;
-
+      
     if(error?.data?.message.toLowerCase().includes('insufficient funds for gas')) {
       err = 'Insufficient funds for gas'
     } else {
