@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
-import Box from '@/components/Box/Box';
 import MintDetails from '@/components/MintDetails/MintDetails';
 import Header from '@/components/Header/Header';
 import UserCollection from '@/components/UserCollection/UserCollection';
