@@ -1,5 +1,6 @@
 {
   "name": "nft-mint",
+  "homepage": "https://kurzan.github.io/mint_nft_react/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
