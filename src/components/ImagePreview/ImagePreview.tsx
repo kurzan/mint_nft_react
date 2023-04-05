@@ -26,7 +26,7 @@ const ImagePreview: FC<TImagePreviewProps> = ({src}) => {
   }, [currentImage, src])
 
   return(
-    <Image className={styles.image} src={src ? src : `./nft/${currentImage}.jpg`} alt="nft" width="320" height="320"  />
+    <Image className={styles.image} src={src ? src : `/nft/${currentImage}.jpg`} alt="nft" width="320" height="320"  />
   )
 };
 

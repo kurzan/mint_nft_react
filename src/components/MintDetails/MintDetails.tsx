@@ -8,6 +8,7 @@ import { contract } from "@/services/web3config";
 import { useContractRead, usePrepareContractWrite, useContractWrite, useAccount } from 'wagmi';
 import { CounterContext } from "@/services/appContext";
 import { ethers } from "ethers";
+import Modal from "../Modal/Modal";
 
 
 const initialState = {
@@ -44,7 +45,11 @@ const MintDetails = () => {
     }
   });
 
-  const { data: mintData, isLoading: isLoadingMintData, isSuccess, write } = useContractWrite(config);
+  const { data: mintData, isLoading: isLoadingMintData, isSuccess, write, reset } = useContractWrite(config);
+
+  useEffect(() => {
+    console.log(mintData)
+  }, [mintData])
 
   const errorMess = useMemo(() => {
 
@@ -58,6 +63,10 @@ const MintDetails = () => {
 
     return err;
   }, [error])
+
+  const modalClose = () => {
+    reset();
+  };
 
 
   return(
@@ -76,9 +85,14 @@ const MintDetails = () => {
           </div>
         </div>
       </div>
+      {isSuccess ? <Modal title="Congratulations 🎉">
+        <div className={styles.modal_content}>
+          <p style={{fontSize: '32px'}}>You have successfully mined NFT</p>
+          <a className={styles.tx_link} target="_blank" href={`https://testnet.bscscan.com/tx/${mintData?.hash}`}>Check transaction on BNB Scan</a>
+          <Button title="Close" onClick={modalClose} />
+        </div>
+      </Modal> : null}
     </Box>
-
-
   )
 };
 

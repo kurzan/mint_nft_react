@@ -29,3 +29,18 @@
   justify-content: center;
   gap: 24px;
 }
+
+.modal_content {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tx_link {
+  cursor: pointer;
+}
+
+.tx_link:hover {
+  opacity: 0.8;
+}
