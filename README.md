@@ -1,38 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://user-images.githubusercontent.com/112556583/230098084-347bbe83-26c6-4307-989e-33f54efdf9bb.png)
 
-## Getting Started
+# Минтер для NFT коллекции Smoke Cat
 
-First, run the development server:
+### Ссылка на деплой 
 
-```bash
+https://kurzan.github.io/mint_nft_react/
+
+### Описание коллекции
+
+Коллекция состит из 10 уникальных NFT Smoke Cat (кот Дымок)</br>
+В данной коллекции за раз можно приобрести только 1 NFT</br>
+Цена за 1 NFT 0,001 tBNB</br>
+
+## Процесс минта
+
+<b>1. Подключите кошелек в верхнем правом углу экрана и нажмите кнопку Mint </b>
+
+![image](https://user-images.githubusercontent.com/112556583/230099969-f3baf8f6-94d0-4cfa-a77f-5519874e5e45.png)
+
+<b>2. В случае успешной транзакии вы получите уведомление со ссылкой на транзакцию</b>
+
+![image](https://user-images.githubusercontent.com/112556583/230100750-197305a5-df48-4bb5-982f-1c9a8f010708.png)
+
+<b>3. Просмотреть все NFT из коллекции, а так же NFT которые находятся в вашем кошелье можно в нижней части сайта</b>
+
+![image](https://user-images.githubusercontent.com/112556583/230103765-de8fc129-74f3-46ae-b3ad-fcd7d9cc7167.png)
+
+
+## Установка и запуск проекта
+
+```shell
+git clone git@github.com:kurzan/mint_nft_react.git
+cd mint_nft_react
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
